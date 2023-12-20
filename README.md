@@ -11,7 +11,7 @@ alternatively you can dowload the source and compile it yourself, see the steps 
 
 ## How to Compile
 
-1. Clone the repository:
+1. Clone the repository (if you prefer you can just dowload it):
 ```pws
 git clone https://github.com/N0zye/Pong.git
 cd Pong
