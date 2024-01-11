@@ -17,8 +17,8 @@ git clone https://github.com/N0zye/Pong.git
 cd Pong
 ```
 2. Compile
-compile it using the following comand ( **_only for powershell_** and MingW compiler) <br>
+compile it using the following comand ( **_only for powershell_** and MingW family compiler) <br>
 ```pws
-g++ "${PWD}/src/*.cpp" -o "${PWD}/build/out.exe" -O2 -std=c++17 -mwindows -w -I "${PWD}/include/" -L "${PWD}/lib/" -l:libraylibdll.a
+g++ "${PWD}/src/main.cpp" "${PWD}/src/gameFunctions.cpp" "${PWD}/src/gameObjects.cpp" -o "${PWD}/build/out.exe" -O2 -std=c++17 -mwindows -w -I "${PWD}/include/" -L "${PWD}/lib/" -l:libraylibdll.a
 ```
 3. Have fun!
